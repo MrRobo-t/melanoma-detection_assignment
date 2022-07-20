@@ -20,12 +20,12 @@ To build a CNN based model which can accurately detect melanoma. Melanoma is a t
 - Conclusion
 
 ## Conclusions
-- Initial model didnt perform well because it suffers from overfitting.
-- To reduce overfititng we added dropout layers and earlystopping , which helped fix overfitting but it reduced the overall performance of the model.
-- We tried Batch Normalization and Augumentation which helped in fixing class imbalancing problem but val score seems to be unstable.
+- First model wasn't performing good as it suffered from overfitting.
+- To overcome overfititng, we added dropout layers and earlystopping. This helped us to fix the overfitting but reduced the overall performance of the model.
+- Batch Normalization and Augumentation helped in fixing class imbalancing problem although the val score came out to be unstable.
 
 ## Technologies Used
-- pandas 1.3.5
-- matplotlib 3.5.2
+- pandas 1.3.4
+- matplotlib 3.4.3
 - seaborn 0.11.2
 - tensorflow 2.9.1
